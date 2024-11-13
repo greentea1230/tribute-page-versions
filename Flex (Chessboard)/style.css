@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: #B1751A;
+    font-size: 5em;
+    display: flex;
+}
+
+.board {
+    display: flex;
+    flex-flow: row wrap;
+    width: 32vw;
+    height: auto;
+    box-shadow: 5px 5px 10px #322411;
+}
+
+.square {
+    aspect-ratio: 1/1;
+    width: 12.5%;
+    height: auto;
+    font-size: 3em;
+    text-align: center; 
+    max-width: 100%;  
+}
+
+.white {
+    background-color: bisque;
+}
+
+.black {
+    background-color: peru;
+}
